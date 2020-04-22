@@ -1,0 +1,39 @@
+/* Write your CSS here. */
+.block__wgs{
+  display: inline-block;
+  position: relative;
+  width: 320px;
+  height: 241px;
+  overflow: hidden;
+}
+
+.block__elem__molehead{
+  position: absolute;
+  width: 188px;
+  height: 178px;
+  margin-left: 55px;
+  transition-property: margin-top;
+  transition-duration: .25s
+}
+
+.block__elem__dirtpile{
+  position: absolute;
+  width: 320px;
+  height: 110px;
+  margin-bottom: 0;
+  margin-top: 131px;
+}
+
+.block__elem__mole-head--hidden {
+margin-top: 241px;
+}
+
+.block__pf{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+body {
+zoom: 0.75;
+}
